@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: black;
+    font-family: Poppins,sans-serif;
+    color:white;
+}
+.hero-section{
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items:center;
+    flex-wrap: wrap;
+    padding:10px;
+    margin:20px;
+    gap:20px;
+}
+.poster:hover{
+    scale:1.1;
+    border-radius:30px;
+    box-shadow: 0 5px 15px rgba(255,255,255,0.1);
+}
+.poster{
+    width:80%;
+    height:auto;
+    border-radius:12px;
+    box-shadow: 0 5px 15px rgba(255,255,255,0.1);
+
+}
+.poster-card{
+    flex:0 0 200px;
+    width:80%;
+    text-align: center;
+}
+h2,p{
+font-size: 1.1rem;
+margin: 10px 0 5px 0;
+}
