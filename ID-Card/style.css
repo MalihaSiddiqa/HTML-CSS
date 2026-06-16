@@ -16,7 +16,8 @@
     overflow: auto;
 }
 .id-card{
-    width:350px;
+    width:100%;
+    max-width:350px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 12px 28px rgba(0,0,0,0,45);
@@ -81,7 +82,7 @@
     font-size: 13px;
     margin:8px:
 }
-id-line{
+.id-line{
     margin:10px;
     display:inline-block;
     background: #07294b;
@@ -90,7 +91,7 @@ id-line{
     border-radius: 8px;
     font-weight:700;
 }
-.id-label{
+.id-line .ID-No{
     margin-right: 6px;
     opacity:0.9;
     font-weight: 600;
